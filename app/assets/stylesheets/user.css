@@ -24,9 +24,9 @@
 .account-page .account-page__header h2:after {
   content: "";
   display: block;
-  width: 60px;
-  margin-top: 5px;
-  border-bottom: 1px solid #6B8E23;
+  width: 340px;
+  margin-top: 1px;
+  border-bottom: 2px solid #6B8E23;
 }
 .account-page .account-page__header h5 {
   margin-bottom: 20px;
@@ -137,4 +137,29 @@
 
 .field_with_errors {
   display: contents;
+}
+
+.login-flash-message {
+  text-align: center;
+  color: red;
+}
+
+.indispensable {
+  color: red;
+}
+
+.login {
+  display: block;
+  width: 110px;
+  border-bottom: 1px solid #6B8E23;
+  position: absolute;
+  top: 300px;
+}
+
+.sign {
+  display: block;
+  width: 120px;
+  border-bottom: 1px solid #6B8E23;
+  position: absolute;
+  top: 300px;
 }
