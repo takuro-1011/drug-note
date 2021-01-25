@@ -1,9 +1,12 @@
 <div class="home_left">
   <div class="list">
-    <%= link_to "マイページ", "#", class: 'btn'%>
+    <%= link_to "マイページ", user_path(current_user), method: :get, class: 'btn'%>
   </div>
   <div class="list">
     <%= link_to "お薬保存",  new_drug_path, method: :get, class: 'btn'%>
+  </div>
+  <div class="list">
+    <%= link_to "近くの病院",  "#", class: 'btn'%>
   </div>
   <div class="list">
     <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: 'btn'%>

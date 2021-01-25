@@ -1,0 +1,39 @@
+<div class="header">
+  <%= render "drugs/header" %>
+</div>
+<div class="home">
+  <%= render "drugs/side_bar" %>
+  <div class="home_right">
+    <div class="home_user">
+      <div class="mypage-heading">
+        マイページ
+      </div>
+      <table class="table">
+        <tbody>
+          <tr>
+            <th class="table__col1">名前</th>
+            <td class="table__col2"><%= @user.name %></td>
+          </tr>
+          <tr>
+            <th class="table__col1">電話番号</th>
+            <td class="table__col2"><%= @user.phone_number %></td>
+          </tr>
+          <tr>
+            <th class="table__col1">誕生日</th>
+            <td class="table__col2"><%= @user.birthday %></td>
+          </tr>
+          <tr>
+            <th class="table__col1">アレルギー</th>
+            <td class="table__col2"><%= @user.allergy %></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+      <div class="mypage-savehead">
+        保存内容
+      </div>
+      <div class="user__card">
+        <%= render partial: "drugs/drug", collection: @drugs %>
+      </div>
+  </div>
+</div>

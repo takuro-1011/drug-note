@@ -1,0 +1,19 @@
+<div class="card">
+  <%= link_to "#" do %>
+    <%= image_tag drug.image, class: :card__img if drug.image.attached?%>
+  <% end %>
+  <div class="card__body">
+    <div class="card__name">
+      <%=  drug.drug_name %>
+    </div>
+    <div class="card__summary">
+      <%= drug.hospital %>
+    </div>
+    <div class="card__summary">
+      <%= drug.effect %>
+    </div>
+    <div class="card__user">
+      <%= drug.day_id %>
+    </div>
+  </div>
+</div>
