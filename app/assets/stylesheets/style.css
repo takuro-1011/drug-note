@@ -71,7 +71,7 @@ a {
 .home_left {
   width: 250px;
   height: 100vh;
-  background-color: #E0FFFF;
+  background-color: #F0FFF0;
 }
 
 .side_bar {
@@ -124,6 +124,11 @@ a {
   font-size: 1.3vw;
   list-style: circle;
   color: rgb(182, 48, 0);
+}
+
+.img-top {
+  position: absolute;
+  left: 500px;
 }
 /* 詳細ページ */
 
