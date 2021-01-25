@@ -16,6 +16,10 @@ class DrugsController < ApplicationController
     end
   end
 
+  def show
+    @drug = Drug.find(params[:id])
+  end
+
   private
   def drug_params
     params.require(:drug).permit(:drug_name, :hospital, :effect, :day_id, :image).merge(user_id: current_user.id)

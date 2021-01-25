@@ -1,5 +1,5 @@
 <div class="card">
-  <%= link_to "#" do %>
+  <%= link_to drug_path, method: :get do %>
     <%= image_tag drug.image, class: :card__img if drug.image.attached?%>
   <% end %>
   <div class="card__body">

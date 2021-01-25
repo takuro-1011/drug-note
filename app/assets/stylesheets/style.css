@@ -130,7 +130,64 @@ a {
   position: absolute;
   left: 500px;
 }
-/* 詳細ページ */
+/* drug詳細ページ */
+.drug_wrapper{
+  min-height: calc(100vh - 161px);
+}
+.drugshow-heading {
+  font-size: 40px;
+  width: 300px;
+  height: 60px;
+  border-bottom: 1px solid #6B8E23;
+}
+.drug_hedding{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.drug_user{
+  display: block;
+  font-size: 16px;
+  color: #999;
+  text-align: center;
+  text-decoration: underline;
+}
+.drug_image{
+  width: 40%;
+  margin: 0 auto;
+  padding: 16px 0;
+}
+.drug_detail{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+.detail_title{
+  font-size: 20px;
+  font-weight: bold;
+}
+.drug_manage{
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+}
+.drug_btn{
+  display: block;
+  padding: 0.4em 1.6em;
+  font-size: 1em;
+  color: #999;
+  text-decoration: none;
+  user-select: none;
+  border: 1px #999 solid;
+  border-radius: 3px;
+  transition: 0.4s ease;
+  margin: 0 8px;
+}
+.drug_btn:hover{
+  color: #fff;
+  background: #999;
+}
 
 /* ユーザーページ */
 
