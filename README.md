@@ -24,7 +24,7 @@
 | drug_name        | string     | null: false  |
 | hospital         | string     | null: false  |
 | effect           | text       | null: false  |
-| day(処方日)       | integer    | null: false  |
+| day_id(処方日)    | date       | null: false  |
 | user             | references | null: false, foreign_key: true |
 
 ### Association

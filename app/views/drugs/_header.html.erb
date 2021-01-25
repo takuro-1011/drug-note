@@ -2,12 +2,12 @@
   <div class="header">
     <div class="left_header">
       <div class="header-name">
-        <a href="#">お薬手帳</a>
+        <%= link_to "お薬手帳", root_path, class: "main-header" %>
       </div>
     </div>
     <div class="right_header">
       <div class="greeting">
-        <a href="#">名前</a>
+        <%= current_user.name %>
       </div>
     </div>
   </div>

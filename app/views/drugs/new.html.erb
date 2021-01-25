@@ -1,0 +1,46 @@
+<div class="header">
+  <%= render "header" %>
+</div>
+<div class="home">
+  <%= render "side_bar" %>
+  <div class="home_right">
+    <div class="home_new">
+      <div class="page-heading">
+        お薬保存
+      </div>
+      <%= form_with(model: @drug, local: true) do |f|%>
+      <div class="field_all">
+      <%= render 'shared/error_message', model: f.object %>
+        <div class="field">
+          <%= f.label :tdrug_name, "お薬の名前" %><br />
+          <%= f.text_field :drug_name %>
+        </div>
+
+        <div class="field">
+          <%= f.label :hospital, "病院名" %><br />
+          <%= f.text_area :hospital, class: :form__text %>
+        </div>
+
+        <div class="field">
+          <%= f.label :effect, "お薬の効果" %><br />
+          <%= f.text_area :effect, class: :form__text %>
+        </div>
+
+        <div class="field">
+          <%= f.label :day_id, "処方日" %><br />
+          <%= f.date_field :day_id %>
+        </div>
+
+        <div class="field">
+          <%= f.label :image, "お薬の画像" %><br />
+          <%= f.file_field :image %>
+        </div>
+
+        <div class="actions">
+          <%= f.submit "保存する", class: :form__btn  %>
+        </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

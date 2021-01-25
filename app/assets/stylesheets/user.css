@@ -163,3 +163,8 @@
   position: absolute;
   top: 300px;
 }
+
+.greeting {
+  font-size: 30px;
+  color: white;
+}

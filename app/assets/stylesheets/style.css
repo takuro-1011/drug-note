@@ -49,6 +49,9 @@ a {
   text-decoration: none;
 }
 
+.main-header {
+  color: white;
+}
 .right_header {
   width: 50%;
   display: flex;
@@ -74,6 +77,10 @@ a {
   background-color: #E0FFFF;
 }
 
+.side_bar {
+  width: 250px;
+}
+
 .list{
   list-style: none;
   padding: 20px 20px 20px;
@@ -85,6 +92,41 @@ a {
   background-color: #FFFFFF;
 }
 
+.home_new {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.page-heading {
+  display: block;
+  font-size: 50px;
+  width: 200px;
+  height: 70px;
+  border-bottom: 1px solid #6B8E23;
+  position: absolute;
+  left: 300px;
+}
+
+.field_all {
+  padding-top: 100px;
+}
+.field{
+  margin: 10px 0;
+  font-size: large;
+}
+
+.error-alert {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+
+.error-message {
+  font-size: 1.3vw;
+  list-style: circle;
+  color: rgb(182, 48, 0);
+}
 /* 詳細ページ */
 
 /* ユーザーページ */

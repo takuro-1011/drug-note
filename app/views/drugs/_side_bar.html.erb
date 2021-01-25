@@ -1,15 +1,11 @@
-<div class="home">
-  <div class="home_left">
-    <div class="list">
-      <%= link_to "マイページ", "#", class: 'btn'%>
-    </div>
-    <div class="list">
-      <%= link_to "お薬保存", "#", class: 'btn'%>
-    </div>
-    <div class="list">
-      <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: 'btn'%>
-    </div>
+<div class="home_left">
+  <div class="list">
+    <%= link_to "マイページ", "#", class: 'btn'%>
   </div>
-  <div class="home_right">
+  <div class="list">
+    <%= link_to "お薬保存",  new_drug_path, method: :get, class: 'btn'%>
+  </div>
+  <div class="list">
+    <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: 'btn'%>
   </div>
 </div>
