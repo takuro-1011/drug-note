@@ -6,9 +6,11 @@
       </div>
     </div>
     <div class="right_header">
-      <div class="greeting">
-        <%= current_user.name %>
-      </div>
+      <% if user_signed_in? %>
+        <div class="greeting">
+          <%= link_to current_user.name, edit_user_path(current_user), class:"item-red-btn"%>
+        </div>
+      <% end %>
     </div>
   </div>
 </div>

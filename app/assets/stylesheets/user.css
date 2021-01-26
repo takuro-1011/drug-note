@@ -44,6 +44,7 @@
   background-color: #ccc;
   font-size: 14px;
 }
+
 .account-page .field {
   margin-bottom: 10px;
 }
@@ -165,13 +166,18 @@
   display: block;
   width: 120px;
   border-bottom: 1px solid #6B8E23;
-  position: absolute;
-  top: 300px;
 }
 
 .greeting {
   font-size: 30px;
   color: white;
+}
+
+.item-red-btn {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFF;
 }
 
 .home_user {

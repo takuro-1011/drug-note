@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   get 'drugs/index'
   root to: "drugs#index"
   resources :drugs
-  resources :users, only: [:show, :destroy]
+  resources :users, only: [:show, :edit, :update]
 end
