@@ -1,3 +1,8 @@
+/* リセットCSS */
+* {
+  box-sizing: border-box;
+}
+
 .account-page .account-page__inner {
   width: 980px;
   margin: 60px auto;
@@ -254,5 +259,5 @@
   border-bottom: 1px solid #6B8E23;
   position: absolute;
   left: 300px;
-  top: 450px;
+  top: 430px;
 }

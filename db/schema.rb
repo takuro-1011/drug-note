@@ -49,7 +49,7 @@ ActiveRecord::Schema.define(version: 2021_01_25_042009) do
     t.string "encrypted_password", default: "", null: false
     t.string "name", null: false
     t.string "name_kana", null: false
-    t.integer "phone_number", null: false
+    t.string "phone_number", null: false
     t.date "birthday", null: false
     t.text "allergy"
     t.string "reset_password_token"
