@@ -11,7 +11,7 @@
       <% if user_signed_in? && current_user.id == @drug.user_id %>
         <div class="drug_manage">
           <%= link_to "編集する", edit_drug_path(@drug.id), method: :get, class: :drug_btn %>
-          <%= link_to "削除する", drug_path(@drug.id), class: :drug_btn %>
+          <%= link_to "削除する", drug_path(@drug.id), method: :delete, class: :drug_btn %>
         </div>
       <% end %>
       <div class="drug_images">

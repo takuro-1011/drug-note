@@ -26,10 +26,17 @@ class DrugsController < ApplicationController
 
   def update
     @drug = Drug.find(params[:id])
-    if @drug.update(drug_params) # updateメソッドの引数tweet_paramsでは、どの情報を更新するかを指定
+    if @drug.update(drug_params)
       redirect_to drug_path
     else
       render :edit
+    end
+  end
+
+  def destroy
+    @drug = Drug.find(params[:id])
+    if @drug.destroy
+      redirect_to root_path
     end
   end
 
