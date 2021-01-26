@@ -16,6 +16,7 @@
 ### Association
 
 - has_many :drugs
+- has_many :comments
 
 ## drugs テーブル
 
@@ -30,4 +31,16 @@
 ### Association
 
 - belongs_to :user
+- has_many :comments
+##  comments テーブル
 
+| Column      | Type        | Options                        |
+| ----------  | ----------  | ------------------------------ |
+| text        | text        | null: false                    |
+| user        | references  | null: false, foreign_key: true |
+| drug        | references  | null: false, foreign_key: true |
+
+### Association
+
+- belongs_to :user
+- belongs_to :drug

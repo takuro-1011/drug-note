@@ -7,5 +7,6 @@ class Drug < ApplicationRecord
     validates :hospital
     validates :effect
     validates :day_id
+    validates :image
   end
 end

@@ -8,42 +8,45 @@
       <div class="drugshow-heading">
         お薬詳細ページ
       </div>
-      <% if user_signed_in? && current_user.id == @drug.user_id %>
-        <div class="drug_manage">
-          <%= link_to "編集する", edit_drug_path(@drug.id), method: :get, class: :drug_btn %>
-          <%= link_to "削除する", drug_path(@drug.id), method: :delete, class: :drug_btn %>
+      <div class="drugs-show-main">
+        <div class="drug-show-main">
+          <% if user_signed_in? && current_user.id == @drug.user_id %>
+            <div class="drug_manage">
+              <%= link_to "編集する", edit_drug_path(@drug.id), method: :get, class: :drug_btn %>
+              <%= link_to "削除する", drug_path(@drug.id), method: :delete, class: :drug_btn %>
+            </div>
+          <% end %>
+          <div class="drug_images">
+            <%= image_tag @drug.image, class: :drug_image %>
+          </div>
+          <div class="drug_body">
+            <div class="drug_detail">
+              <p class="detail_title">お薬名</p>
+              <p class="detail_message">
+                <%= @drug.drug_name %>
+              </p>
+            </div>
+            <div class="drug_detail">
+              <p class="detail_title">病院名</p>
+              <p class="detail_message">
+                <%= @drug.hospital %>
+              </p>
+            </div>
+            <div class="drug_detail">
+              <p class="detail_title">薬の効果</p>
+              <p class="detail_message">
+                <%= @drug.effect %>
+              </p>
+            </div>
+            <div class="drug_detail">
+              <p class="detail_title">処方日</p>
+              <p class="detail_message">
+                <%= @drug.day_id %>
+              </p>
+            </div>
+          </div>
         </div>
-      <% end %>
-      <div class="drug_images">
-        <%= image_tag @drug.image, class: :drug_image %>
       </div>
-      <div class="drug_body">
-        <div class="drug_detail">
-          <p class="detail_title">お薬名</p>
-          <p class="detail_message">
-            <%= @drug.drug_name %>
-          </p>
-        </div>
-        <div class="drug_detail">
-          <p class="detail_title">病院名</p>
-          <p class="detail_message">
-            <%= @drug.hospital %>
-          </p>
-        </div>
-        <div class="drug_detail">
-          <p class="detail_title">薬の効果</p>
-          <p class="detail_message">
-            <%= @drug.effect %>
-          </p>
-        </div>
-        <div class="drug_detail">
-          <p class="detail_title">処方日</p>
-          <p class="detail_message">
-            <%= @drug.day_id %>
-          </p>
-        </div>
-      </div>
-      
     </div>
   </div>
 </div>

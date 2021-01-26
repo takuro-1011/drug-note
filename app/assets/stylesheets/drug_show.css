@@ -2,14 +2,34 @@
   box-sizing: border-box;
 }
 
+.drugs-show-main {
+  padding-top: 100px;
+}
+
+.drug-show-main {
+  display: block;
+  justify-content: flex-end;
+  background-color: #FFF;
+  width: 60vw;
+  height: 100vh;
+  min-width: 450px;
+  padding: 10vh 15vw;
+}
+
 .drug_wrapper{
   min-height: calc(100vh - 161px);
+  background-color: #f5f5f5;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+  background-color: #f5f5f5;
 }
 .drugshow-heading {
   font-size: 40px;
-  width: 300px;
   height: 60px;
   border-bottom: 1px solid #6B8E23;
+  position: absolute;
+  left: 300px;
 }
 .drug_hedding{
   font-size: 24px;
