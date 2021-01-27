@@ -10,7 +10,7 @@ class DrugsController < ApplicationController
 
   def create
     @drug = Drug.new(drug_params)
-    if @drug.save
+    if @drug.save 
       redirect_to root_path
     else
       render :new

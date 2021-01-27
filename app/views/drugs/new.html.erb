@@ -6,13 +6,13 @@
   <div class="home_right">
     <div class="home_new">
       <div class="page-heading">
-        お薬保存ページ
+        お薬登録ページ
       </div>
       <div class="drugs-sell-main">
-        <div class="drug-sell-main">
-          <%= form_with(model: @drug, local: true) do |f|%>
+        <div class="drug-sell-main" >
+          <%= form_with(model: @drug, local: true, id: "new_drug") do |f|%>
           <div class="field_all">
-          <%= render 'shared/error_message', model: f.object %>
+            <%= render 'shared/error_message', model: f.object %>
             <div class="field">
               <%= f.label :tdrug_name, "お薬の名前" %><br />
               <%= f.text_field :drug_name %>
@@ -39,7 +39,7 @@
             </div>
 
             <div class="actions">
-              <%= f.submit "保存する", class: :form__btn  %>
+              <%= f.submit "登録する", id: "submit_btn", class: :form__btn  %>
             </div>
             <% end %>
           </div>

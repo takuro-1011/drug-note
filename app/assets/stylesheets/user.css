@@ -168,17 +168,6 @@
   border-bottom: 1px solid #6B8E23;
 }
 
-.greeting {
-  font-size: 30px;
-  color: white;
-}
-
-.item-red-btn {
-  text-align: center;
-  font-size: 24px;
-  font-weight: bold;
-  color: #FFF;
-}
 
 .home_user {
   display: flex;
@@ -240,6 +229,10 @@
   width: 33vh;
   height: 33vh;
   margin: 15px;
+}
+
+.card__body {
+  width: 250px;
 }
 .card_name {
   display: block;

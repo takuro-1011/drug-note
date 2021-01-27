@@ -58,7 +58,26 @@ a {
 
 .greeting {
   padding-right: 180px;
-  font-size: large;
+}
+
+.item-red-btn {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+.show-lists {
+  width: 100px;
+  position: absolute;
+  right: 200px;
+  top: 70px;
+  background-color: #DCDCDC;
+}
+
+.show-list {
+  color: #808080;
+  margin-left: 33px;
 }
 
 .home {
@@ -143,6 +162,10 @@ a {
 .img-top {
   position: absolute;
   left: 500px;
+}
+
+.hidden{
+  display: none;
 }
 
 /* ユーザーページ */

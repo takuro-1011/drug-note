@@ -7,8 +7,13 @@
     </div>
     <div class="right_header">
       <% if user_signed_in? %>
-        <div class="greeting">
-          <%= link_to current_user.name, edit_user_path(current_user), class:"item-red-btn"%>
+        <div class="greeting" >
+          <a class="item-red-btn" id="lists"><%=current_user.name%></a>
+          <ul class="show-lists hidden" id="pull-down">
+            <%= link_to edit_user_path(current_user) do %>
+              <li class="show-list" id="pull-down-show">編集</li>
+            <% end %>
+          </ul>
         </div>
       <% end %>
     </div>
