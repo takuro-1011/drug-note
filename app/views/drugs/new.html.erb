@@ -14,25 +14,33 @@
           <div class="field_all">
             <%= render 'shared/error_message', model: f.object %>
             <div class="field">
-              <%= f.label :tdrug_name, "お薬の名前" %><br />
+              <%= f.label :drug_name, "お薬の名前" %><span class="indispensable">必須</span><br />
               <%= f.text_field :drug_name %>
             </div>
 
             <div class="field">
-              <%= f.label :hospital, "病院名" %><br />
+              <%= f.label :hospital, "病院名" %><span class="indispensable">必須</span><br />
               <%= f.text_area :hospital, class: :form__text %>
             </div>
 
             <div class="field">
-              <%= f.label :effect, "お薬の効果" %><br />
+              <%= f.label :effect, "お薬の効果" %><span class="indispensable">必須</span><br />
               <%= f.text_area :effect, class: :form__text %>
             </div>
 
             <div class="field">
-              <%= f.label :day_id, "処方日" %><br />
+              <%= f.label :day_id, "処方日" %><span class="indispensable">必須</span><br />
               <%= f.date_field :day_id %>
             </div>
 
+            <div class="field">
+              <div class='field-lavel' >
+                <%= f.label :capa_id, "用量" %><i>(何日分)</i><span class="indispensable">必須</span><br />
+              </div>
+              <div class='field-input'>
+                <%= f.collection_select(:capa_id, Capa.all, :id, :name, {}, {class:"select-box", id:"item-prefecture"}) %>
+              </div>
+            </div>
             <div class="field">
               <%= f.label :image, "お薬の画像" %><br />
               <%= f.file_field :image %>

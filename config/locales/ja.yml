@@ -1,0 +1,17 @@
+ja:
+ activerecord:
+   attributes:
+     user:
+       name: 名前
+       name_kana: 名前(カタカナ)
+       email: メールアドレス
+       phone_number: 電話番号
+       birthday: 誕生日
+     drug:
+       drug_name: 薬剤名
+       hospital: 病院名
+       effect: 薬剤の効果
+       day_id: 処方日
+       capa_id: 用量
+       image: 薬剤の画像
+       

@@ -1,7 +1,7 @@
 class DrugsController < ApplicationController
   before_action :authenticate_user!
   def index
-    @drugs = Drug.includes(:user)
+    @drugs = Drug.order('created_at DESC')
   end
 
   def new
@@ -43,6 +43,6 @@ class DrugsController < ApplicationController
 
   private
   def drug_params
-    params.require(:drug).permit(:drug_name, :hospital, :effect, :day_id, :image).merge(user_id: current_user.id)
+    params.require(:drug).permit(:drug_name, :hospital, :effect, :day_id, :capa_id, :image).merge(user_id: current_user.id)
   end
 end

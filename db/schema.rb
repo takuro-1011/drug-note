@@ -38,6 +38,7 @@ ActiveRecord::Schema.define(version: 2021_01_25_042009) do
     t.string "hospital"
     t.text "effect"
     t.date "day_id"
+    t.integer "capa_id"
     t.bigint "user_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

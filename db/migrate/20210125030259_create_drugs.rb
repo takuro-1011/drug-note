@@ -5,6 +5,7 @@ class CreateDrugs < ActiveRecord::Migration[6.0]
       t.string :hospital
       t.text :effect
       t.date :day_id
+      t.integer :capa_id
       t.references :user, foreign_key: true
       t.timestamps
     end

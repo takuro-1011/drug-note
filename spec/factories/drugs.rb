@@ -5,7 +5,7 @@ FactoryBot.define do
     effect                   { "てすと" }
     day_id            { "2020/01/01" }
     image                { Faker::Lorem.sentence }
-    association :user 
+    association :user
 
     after(:build) do |drug|
       drug.image.attach(io: File.open('public/images/test_image.png'), filename: 'test.image_png')

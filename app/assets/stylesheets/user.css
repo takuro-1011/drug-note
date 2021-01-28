@@ -23,15 +23,13 @@
 .account-page .account-page__header h2 {
   margin-bottom: 10px;
   letter-spacing: 3px;
-  font-size: 40px;
-  font-weight: 200;
+  
 }
 .account-page .account-page__header h2:after {
   content: "";
   display: block;
   width: 340px;
   margin-top: 1px;
-  border-bottom: 2px solid #6B8E23;
 }
 .account-page .account-page__header h5 {
   margin-bottom: 20px;
@@ -151,7 +149,13 @@
 }
 
 .indispensable {
-  color: red;
+  background: #ea352d;
+  margin-left: 8px;
+  padding: 3px;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .login {
@@ -216,39 +220,34 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
-  padding-left: 10px;
+  padding-left: 40px;
   position: absolute;
   top: 480px;
 }
 
 .card {
-  width: calc((100% - 50px) / 4);
+  width: calc((100% - 100px) / 4);
   margin-bottom: 40px;
 }
 .card__img {
-  width: 33vh;
-  height: 33vh;
+  width: 20vh;
+  height: 20vh;
   margin: 15px;
 }
 
 .card__body {
   width: 250px;
 }
-.card_name {
-  display: block;
-  font-size: 20px;
+.card__name {
+  font-size: 16px;;
   margin-bottom: 8px;
-  font-weight: bold;
 }
-.card__summary {
-  font-size: 16px;
-}
+
 .card__user {
   display: block;
   font-size: 14px;
   color: black;
-  text-align: right;
-  text-decoration: underline;
+  
 }
 
 .mypage-savehead {
@@ -261,3 +260,25 @@
   left: 300px;
   top: 430px;
 }
+
+.edit-second-header {
+  display: block;
+  font-size: 20px;
+  width: 100px;
+  border-bottom: 1px solid #6B8E23;
+  position: absolute;
+  top: 430px;
+}
+
+.edit-header {
+  font-size: 35px;
+  border-bottom: 2px solid #6B8E23;
+  width: 230px;
+}
+
+.registration-header {
+  font-size: 35px;
+  border-bottom: 2px solid #6B8E23;
+  width: 310px;
+}
+

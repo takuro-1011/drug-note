@@ -26,7 +26,8 @@
 | hospital         | string     | null: false  |
 | effect           | text       | null: false  |
 | day_id(処方日)    | date       | null: false  |
-| user             | references | null: false, foreign_key: true |
+| capa_id(容量)     | integer    | null: false  |
+| user             | references | null: false, |foreign_key: true |
 
 ### Association
 

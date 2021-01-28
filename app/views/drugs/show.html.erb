@@ -17,13 +17,19 @@
             </div>
           <% end %>
           <div class="drug_images">
-            <%= image_tag @drug.image, class: :drug_image %>
+            <%= image_tag @drug.image, class: :show_drug_image %>
           </div>
           <div class="drug_body">
             <div class="drug_detail">
               <p class="detail_title">お薬名</p>
               <p class="detail_message">
                 <%= @drug.drug_name %>
+              </p>
+            </div>
+            <div class="drug_detail">
+              <p class="detail_title">お薬の用量</p>
+              <p class="detail_message">
+                <%= @drug.capa.name %>
               </p>
             </div>
             <div class="drug_detail">

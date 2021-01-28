@@ -1,14 +1,16 @@
 <div class="home_left">
-  <div class="list">
-    <%= link_to "マイページ", user_path(current_user), method: :get, class: 'btn'%>
-  </div>
-  <div class="list">
-    <%= link_to "お薬登録",  new_drug_path, method: :get, class: 'btn'%>
-  </div>
-  <div class="list">
-    <%= link_to "近くの病院",  "#", class: 'btn'%>
-  </div>
-  <div class="list">
-    <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: 'btn'%>
-  </div>
+  <ul class="lists" id="side-list">
+    <%= link_to user_path(current_user), method: :get do %>
+     <li class="list" id="listone">マイページ</li>
+    <% end %>
+    <%= link_to new_drug_path, method: :get do %>
+     <li class="list" id="listtwo">お薬登録</li>
+    <% end %>
+    <%= link_to "#", method: :get do %>
+     <li class="list" id="listthree">近くの病院</li>
+    <% end %>
+    <%= link_to destroy_user_session_path, method: :delete do %>
+     <li class="list" id="listfour">ログアウト</li>
+    <% end %>
+  </ul>
 </div>

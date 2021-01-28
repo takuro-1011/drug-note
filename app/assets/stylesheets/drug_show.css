@@ -46,8 +46,8 @@
 .drug_images{
   display: flex;
 }
-.drug_image{
-  width: 30%;
+.show_drug_image{
+  width: 50%;
   margin: 0 auto;
   padding: 16px 0;
 }
