@@ -14,7 +14,7 @@
           <div class="field_all">
             <%= render 'shared/error_message', model: f.object %>
             <div class="field">
-              <%= f.label :drug_name, "お薬の名前" %><span class="indispensable">必須</span><br />
+              <%= f.label :drug_name, "薬剤名" %><span class="indispensable">必須</span><br />
               <%= f.text_field :drug_name %>
             </div>
 
@@ -24,7 +24,7 @@
             </div>
 
             <div class="field">
-              <%= f.label :effect, "お薬の効果" %><span class="indispensable">必須</span><br />
+              <%= f.label :effect, "薬剤の効果" %><span class="indispensable">必須</span><br />
               <%= f.text_area :effect, class: :form__text %>
             </div>
 
@@ -42,7 +42,7 @@
               </div>
             </div>
             <div class="field">
-              <%= f.label :image, "お薬の画像" %><br />
+              <%= f.label :image, "薬剤の画像" %><br />
               <%= f.file_field :image %>
             </div>
 

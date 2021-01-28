@@ -98,15 +98,33 @@ a {
 }
 
 .lists {
-  width: auto;
+
   padding: 20px 20px 20px;
 }
 
 .list{
   list-style: none;
   padding: 20px 20px;
+}
+
+.list-one {
   font-size: 20px;
-  width: 200px;
+  width: 100px;
+}
+
+.list-two {
+  font-size: 20px;
+  width: 80px;
+}
+
+.list-three {
+  font-size: 20px;
+  width: 100px;
+}
+
+.list-four {
+  font-size: 20px;
+  width: 100px;
 }
 
 .home_right {

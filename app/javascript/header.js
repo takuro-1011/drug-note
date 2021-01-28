@@ -3,7 +3,7 @@ window.addEventListener('load', function(){
   const pullDownParents = document.getElementById("pull-down")
   const pullDownParent = document.getElementById("pull-down-show")
   pullDownButton.addEventListener('mouseover', function(){
-    this.setAttribute("style", "text-decoration: underline", "padding-bottom: 10px;")
+    this.setAttribute("style", "text-decoration: underline" )
     pullDownParents.setAttribute("style", "display:block;")
   })
 
