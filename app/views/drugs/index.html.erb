@@ -2,11 +2,35 @@
   <%= render "header" %>
 </div>
 <div class="home">
-  <div class="home_left">
-    <%= render "side_bar" %>
-  </div>
+  <%= render "side_bar" %>
   <div class="home_right">
-    <div class="img-top">
-      <%= image_tag "okusuri_techou.png" %>
+    <div class='select-reason-contents'>
+      <h2 class='title'>
+        電子版お薬手帳のメリット
+      </h2>
     </div>
+    <ul class='reason-lists'>
+      <li class='list'>
+        <%= image_tag "", class:"list-pict" %>
+        <div class='reason-list-number'><span class="number_text">お薬簡単登録</div>
+        <p class='reason-list-description'>
+          簡単記入でお薬の管理もしやすい！
+        </p>
+      </li>
+      <li class='list'>
+        <%= image_tag "", class:"list-pict" %>
+        <div class='reason-list-number2'><span class="number_text">お薬情報をいつも手元に</div>
+        <p class='reason-list-description'>
+          忘れがちなお薬手帳を忘れる心配なし！
+        </p>
+      </li>
+      <li class='list'>
+        <%= image_tag "", class:"list-pict" %>
+        <div class='reason-list-number2'><span class="number_text">ご家族のお薬もまとめて管理</div>
+          <p class='reason-list-description'>
+            お子様のお薬も一緒に管理できる！
+          </p>
+      </li>
+    </ul>
+  </div>
 </div>

@@ -7,7 +7,7 @@ ja:
        email: メールアドレス
        phone_number: 電話番号
        birthday: 誕生日
-       gender_id: 性別
+       gender: 性別
      drug:
        drug_name: 薬剤名
        hospital: 病院名

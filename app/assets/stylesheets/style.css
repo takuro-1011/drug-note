@@ -130,7 +130,6 @@ a {
 .home_right {
   width: calc(100vw - 250px);
   background-color: #FFFFFF;
-  height: auto;
 }
 
 .home_new {
@@ -144,7 +143,7 @@ a {
   display: block;
   font-size: 50px;
   height: 70px;
-  border-bottom: 1px solid #6B8E23;
+  border-bottom: 3px solid #6B8E23;
   position: absolute;
   left: 300px;
 }
@@ -189,11 +188,6 @@ a {
   font-size: 1.3vw;
   list-style: circle;
   color: rgb(182, 48, 0);
-}
-
-.img-top {
-  position: absolute;
-  left: 500px;
 }
 
 .hidden{
