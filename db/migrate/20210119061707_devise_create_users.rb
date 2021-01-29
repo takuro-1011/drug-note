@@ -12,6 +12,7 @@ class DeviseCreateUsers < ActiveRecord::Migration[6.0]
       t.date :birthday,             null: false
       t.text :allergy
       
+      
       ## Recoverable
       t.string   :reset_password_token
       t.datetime :reset_password_sent_at
@@ -40,7 +41,7 @@ class DeviseCreateUsers < ActiveRecord::Migration[6.0]
 
       t.timestamps null: false
     end
-
+    add_column :users, :gender, :integer,    null: false
     add_index :users, :email,                unique: true
     add_index :users, :reset_password_token, unique: true
     # add_index :users, :confirmation_token,   unique: true

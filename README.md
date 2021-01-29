@@ -12,7 +12,7 @@
 | phone_number     | integer | null: false  |
 | allergy          | text    |
 | birthday         |  date   | null: false|
-
+| gender           | integer | null:false |
 ### Association
 
 - has_many :drugs

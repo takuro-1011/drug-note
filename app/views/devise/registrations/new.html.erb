@@ -34,6 +34,18 @@
         </div>
         <div class='field'>
           <div class='field-label'>
+            <%= f.label :gender, "性別" %>
+            <span class="indispensable">必須</span>
+          </div>
+          <div class="gender">
+            <%= f.label :man, "男性" %>
+            <%= f.radio_button :gender, :man %>
+            <%= f.label :woman, "女性" %>
+            <%= f.radio_button :gender, :woman %>
+          </div>
+        </div>
+        <div class='field'>
+          <div class='field-label'>
             <%= f.label :email, "メールアドレス" %>
             <span class="indispensable">必須</span>
           </div>
@@ -93,10 +105,10 @@
         </div>
         <div class='field'>
           <div class='field-lavel'>
-            <%= f.label :allergy, "アレルギー"%>
+            <%= f.label :allergy, "アレルギー" %>
           </div>
           <div class='field-input'>
-            <%= f.text_field :allergy%>
+            <%= f.text_field :allergy %>
           </div>
         </div>
         <div class='actions'>

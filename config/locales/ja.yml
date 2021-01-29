@@ -7,6 +7,7 @@ ja:
        email: メールアドレス
        phone_number: 電話番号
        birthday: 誕生日
+       gender_id: 性別
      drug:
        drug_name: 薬剤名
        hospital: 病院名
@@ -14,4 +15,5 @@ ja:
        day_id: 処方日
        capa_id: 用量
        image: 薬剤の画像
+       allergy: アレルギー
        
