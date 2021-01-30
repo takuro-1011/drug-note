@@ -115,7 +115,14 @@ RSpec.describe User, type: :model do
         @user.valid?
         expect(@user.errors.full_messages).to include "パスワード（確認用）とパスワードの入力が一致しません"
       end
+
+      it "genderが空だと登録できない" do
+        @user.gender = nil
+        @user.valid?
+        expect(@user.errors.full_messages).to include "性別を入力してください"
+      end
     end
+
     context '新規登録がうまくいくとき' do
       it 'name,name_kana, email, phone_number, password, password_confirmation, birthday, genderが存在すれば登録できること' do
         expect(@user).to be_valid
