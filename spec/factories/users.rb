@@ -8,5 +8,6 @@ FactoryBot.define do
     password                { "test000" }
     password_confirmation   { "test000" }
     allergy                 { "ああああ" }
+    gender                  { 1 }
   end
 end

@@ -1,10 +1,11 @@
 FactoryBot.define do
   factory :drug do
-    drug_name                    { "てすと" }
-    hospital               { "てすと" }
-    effect                   { "てすと" }
-    day_id            { "2020/01/01" }
+    drug_name            { "てすと" }
+    hospital             { "てすと" }
+    effect               { "てすと" }
+    day_id               { "2020/01/01" }
     image                { Faker::Lorem.sentence }
+    capa_id              { 1 }
     association :user
 
     after(:build) do |drug|
