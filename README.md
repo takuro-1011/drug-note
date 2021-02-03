@@ -33,18 +33,7 @@
 
 - belongs_to :user
 - has_many :comments
-##  comments テーブル
 
-| Column      | Type        | Options                        |
-| ----------  | ----------  | ------------------------------ |
-| text        | text        | null: false                    |
-| user        | references  | null: false, foreign_key: true |
-| drug        | references  | null: false, foreign_key: true |
-
-### Association
-
-- belongs_to :user
-- belongs_to :drug
 
 | Type        | Options                        |
 | ----------  | ----------  | ------------------------------ |
