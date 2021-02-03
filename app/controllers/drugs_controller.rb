@@ -37,7 +37,7 @@ class DrugsController < ApplicationController
   def destroy
     @drug = Drug.find(params[:id])
     if @drug.destroy
-      redirect_to root_path
+      redirect_to user_path
     end
   end
 
