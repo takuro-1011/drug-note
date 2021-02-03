@@ -56,23 +56,28 @@
 https://drug-note33014.herokuapp
 
 ## テスト用アカウント    
-email:test7   pw:test777                                                      
+email:test1111@com   pw:test1111                                                      
 
 ## 利用方法            
 処方されたお薬の管理を行う、家族のお薬もまとめて管理
 
 新規登録、ログインをするとトップページに遷移
-Markdown: ["ログイン"](https://gyazo.com/e90cd49b26632980c2fe7c99d4e592c9 "ログイン")
+["ログイン"](https://gyazo.com/e90cd49b26632980c2fe7c99d4e592c9 "ログイン")
+
 お薬登録ページに遷移し登録できる、マイページに登録内容の表示
-Markdown: ["お薬登録ページに遷移"](https://gyazo.com/c90e1f226ca1d5e8dc8c0c4fe8636d86 "お薬登録ページに遷移")
+["お薬登録ページに遷移"](https://gyazo.com/c90e1f226ca1d5e8dc8c0c4fe8636d86 "お薬登録ページに遷移")
+
 お薬を登録するとマイページに登録内容が表示される
-Markdown: ["お薬登録"](https://gyazo.com/4a76c253e80eb6c83f3a8cde47b8eee3 "お薬登録")
+["お薬登録"](https://gyazo.com/4a76c253e80eb6c83f3a8cde47b8eee3 "お薬登録")
+
 マイページのお薬内容の画像を押すとお薬詳細ページに遷移し、編集、削除ボタンがある
-Markdown: ["お薬詳細"](https://gyazo.com/aa5842c67d7ea0035cb8ca15eab688db "お薬詳細")
+["お薬詳細"](https://gyazo.com/aa5842c67d7ea0035cb8ca15eab688db "お薬詳細")
+
 サイドバーはカーソルを合わせるとアンダーバー表示、ユーザー名はカーソルを合わせるとプルダウン表示
-Markdown: ["お薬詳細"](https://gyazo.com/542c0b2d72f23c8d4cbb3a163432daea "お薬詳細")
+["お薬詳細"](https://gyazo.com/542c0b2d72f23c8d4cbb3a163432daea "お薬詳細")
+
 グーグルマップを押すと現在地のマップが表示される
-Markdown: ["お薬詳細"](https://gyazo.com/6c0f1d321c513742c49b92b8bd9ca32a "お薬詳細")
+["お薬詳細"](https://gyazo.com/6c0f1d321c513742c49b92b8bd9ca32a "お薬詳細")
 
 ## 目指した課題解決     
 年齢層:年齢若者〜老人  
