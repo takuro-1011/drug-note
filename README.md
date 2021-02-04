@@ -11,7 +11,7 @@ email:test1111@com   pw:test1111
 ## 利用方法            
 
 新規登録、ログインをするとトップページに遷移
-["ログイン"](https://user-images.githubusercontent.com/75613132/106836534-b0cd1280-66dc-11eb-891f-3f6f8517ab9c.mp4)
+!["ログイン"](https://user-images.githubusercontent.com/75613132/106836534-b0cd1280-66dc-11eb-891f-3f6f8517ab9c.mp4)
 
 お薬登録ページに遷移し登録できる、マイページに登録内容の表示
 ["お薬登録ページに遷移"](https://gyazo.com/c90e1f226ca1d5e8dc8c0c4fe8636d86 )
