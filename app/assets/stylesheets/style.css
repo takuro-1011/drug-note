@@ -52,31 +52,30 @@ a {
 .right_header {
   width: 50%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: center;
 }
 
-.greeting {
-  padding-right: 180px;
-}
+
 
 .item-red-btn {
-  text-align: center;
   font-size: 24px;
   font-weight: bold;
   color: #FFF;
 }
 
+
 .show-lists {
   width: 100px;
   position: absolute;
-  right: 200px;
+  right: 350px;
   top: 70px;
   background-color: #DCDCDC;
+  margin: 0 auto;
 }
 
 .show-list {
-  color: #808080;
+  color: black;
   margin-left: 33px;
 }
 
@@ -121,11 +120,12 @@ a {
   font-size: 20px;
   width: 138px;
 }
-
 .list-four {
   font-size: 20px;
   width: 100px;
 }
+
+
 
 .home_right {
   width: calc(100vw - 250px);
