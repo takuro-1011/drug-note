@@ -11,7 +11,7 @@ email:test9@com   pw:test999
 ## 利用方法
 
 新規登録、ログインをするとトップページに遷移
-[![Image from Gyazo](https://i.gyazo.com/https://user-images.githubusercontent.com/75613132/106994728-b7cd5100-67c0-11eb-8941-72e69c4b4cc3..gif)](https://gyazo.com/https://user-images.githubusercontent.com/75613132/106994728-b7cd5100-67c0-11eb-8941-72e69c4b4cc3)
+[![Image from Gyazo](https://i.gyazo.com/106994728-b7cd5100-67c0-11eb-8941-72e69c4b4cc3.gif)](https://gyazo.com/106994728-b7cd5100-67c0-11eb-8941-72e69c4b4cc3)
 
 
 お薬登録ページに遷移し登録できる、マイページに登録内容の表示
