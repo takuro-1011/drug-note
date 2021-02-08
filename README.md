@@ -3,7 +3,7 @@
 ## アプリケーション概要  
 ユーザー管理、お薬の管理ができる。近くの病院がgooglemapで見れる
 ## URL
-https://drug-note33014.herokuapp
+https://drug-note33014.herokuapp.com/
 
 ## テスト用アカウント
 email:test9@com   pw:test999
