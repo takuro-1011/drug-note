@@ -16,16 +16,20 @@ email:test9@com   pw:test999
 
 
 お薬登録ページに遷移し登録できる、マイページに登録内容の表示
-!["お薬登録ページに遷移"](https://gyazo.com/c90e1f226ca1d5e8dc8c0c4fe8636d86 )
+[![Image from Gyazo](https://i.gyazo.com/79a0aab9036cd9581254d4962e9adde4.gif)](https://gyazo.com/79a0aab9036cd9581254d4962e9adde4)
 
-お薬を登録するとマイページに登録内容が表示
-!["お薬登録"](https://gyazo.com/4a76c253e80eb6c83f3a8cde47b8eee3 )
 
 マイページのお薬内容の画像を押すとお薬詳細ページに遷移し、編集、削除ボタンがある
-!["お薬詳細"](https://gyazo.com/aa5842c67d7ea0035cb8ca15eab688db )
+[![Image from Gyazo](https://i.gyazo.com/04739996bb1bbb5ebaf09acb347c20a9.gif)](https://gyazo.com/04739996bb1bbb5ebaf09acb347c20a9)
+
+お薬詳細ページの編集ボタンを押すとお薬編集ページに遷移
+[![Image from Gyazo](https://i.gyazo.com/06d76b9a5c2f443bcb3d28f99f7fdac7.gif)](https://gyazo.com/06d76b9a5c2f443bcb3d28f99f7fdac7)
+
+お薬詳細ページの削除ボタンを押すとお薬を削除し、マイページに遷移
+[![Image from Gyazo](https://i.gyazo.com/2c74042bc234b37516324d8ad95a85a5.gif)](https://gyazo.com/2c74042bc234b37516324d8ad95a85a5)
 
 サイドバーはカーソルを合わせるとアンダーバー表示、ユーザー名はカーソルを合わせるとプルダウン表示
-!["お薬詳細"](https://gyazo.com/542c0b2d72f23c8d4cbb3a163432daea )
+[![Image from Gyazo](https://i.gyazo.com/3353db46b98c6d5529294e5b7d480562.gif)](https://gyazo.com/3353db46b98c6d5529294e5b7d480562)
 
 グーグルマップを押すと現在地のマップが表示
 !["お薬詳細"](https://gyazo.com/6c0f1d321c513742c49b92b8bd9ca32a )
