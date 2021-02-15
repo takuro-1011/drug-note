@@ -1,5 +1,6 @@
 class DrugsController < ApplicationController
   before_action :authenticate_user!
+  before_action :set_drug, except: [:index, :new, :create]
   def index
     @drugs = Drug.order('created_at DESC')
   end
@@ -18,15 +19,12 @@ class DrugsController < ApplicationController
   end
 
   def show
-    @drug = Drug.find(params[:id])
   end
 
   def edit
-    @drug = Drug.find(params[:id])
   end
 
   def update
-    @drug = Drug.find(params[:id])
     if @drug.update(drug_params)
       redirect_to drug_path
     else
@@ -35,7 +33,6 @@ class DrugsController < ApplicationController
   end
 
   def destroy
-    @drug = Drug.find(params[:id])
     if @drug.destroy
       redirect_to user_path(current_user)
     end
@@ -44,5 +41,9 @@ class DrugsController < ApplicationController
   private
   def drug_params
     params.require(:drug).permit(:drug_name, :hospital, :effect, :day_id, :capa_id, :image).merge(user_id: current_user.id)
+  end
+
+  def set_drug
+    @drug = Drug.find(params[:id])
   end
 end
