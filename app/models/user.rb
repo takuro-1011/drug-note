@@ -13,6 +13,7 @@ class User < ApplicationRecord
     validates :birthday
     validates :gender
   end
+  
   has_many :drugs
   enum gender: { man: 1, woman: 2 }
 end
