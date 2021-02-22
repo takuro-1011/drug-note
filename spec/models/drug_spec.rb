@@ -40,6 +40,7 @@ RSpec.describe Drug, type: :model do
         @drug.valid?
         expect(@drug.errors.full_messages).to include ("用量を入力してください")
       end
+      
       it "imageが空だと登録できない" do
         @drug.image = nil
         @drug.valid?
